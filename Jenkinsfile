@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'main', credentialsId: 'aa3e80aa-e369-421e-a28e-21c892e2e6da', url: 'https://github.com/devmahesh486/Terrafrom-Jenkins-CICD'
+                git branch: 'main', credentialsId: 'bfbfe139-90cf-4b01-b3ce-3acc3982df23', url: 'https://github.com/devmahesh486/Terraform-jenkins-aws-eks'
             }
         }
         stage ("terraform init") {
